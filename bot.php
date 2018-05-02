@@ -1,9 +1,9 @@
 <?php
 $basedata 		= file_get_contents("php://input");
 $data 		= json_decode(file_get_contents("php://input"), true);
-$botapi = "275868918:AAFQepdGEkgPcvqEVqjG0qJVbbd2BE04Rm8";
+$botapi = "590041309:AAFnAGOX-rURS1Ersk2ez6X1Bi2ObLfmxbk";
 $botid= "0";
-$adminID = "71595348";
+$adminID = "487107701";
 //$shamsidate = jstrftime('%H:%M:%S | %A, %e / %B / %Y');
 var_dump($data);
 $cid = $data ["message"]["chat"]["id"];
